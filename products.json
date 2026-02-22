@@ -1,3 +1,4 @@
+
 {
   "metadata": {
     "email": "23f1002771@ds.study.iitm.ac.in",
@@ -28,9 +29,25 @@
     {"id":"prod-daa6d538-022","name":"Basic Item 22","category":"electronics","price":64.37,"stock":152,"rating":2.2}
   ],
   "aggregations": {
-    "clothing": {
-      "count": 7,
-      "inventoryValue": 52116.11
-    }
+  "clothing": {
+    "count": 7,
+    "inventoryValue": 52116.11
+  },
+  "electronics": {
+    "count": 4,
+    "inventoryValue": 92125.94
+  },
+  "books": {
+    "count": 3,
+    "inventoryValue": 114669.88
+  },
+  "home": {
+    "count": 4,
+    "inventoryValue": 48217.66
+  },
+  "sports": {
+    "count": 4,
+    "inventoryValue": 132229.45
   }
+}
 }
